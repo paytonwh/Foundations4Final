@@ -24,6 +24,11 @@ summary(found4(:, {'psqi_hourssleep', 'psqi_sleeplatencymin', 'psqi_sleepquality
 %%
 %Make histograms for individual variables, no histogram for gender and self
 %reported sleep quality as they are categorical variables
+
+plotmatrix(tst,fgen)
+
+
+%%
 figure
 histogram(age,10)
 xrange = [60 84];
